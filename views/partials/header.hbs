@@ -1,0 +1,28 @@
+<header>
+    <h2>Glimmer Crafts</h2>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Products</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="user-actions">
+        {{~#if userLoggedIn}}
+        <div class="profileCard" onclick="openProfile(this)">
+            <h3>{{userData.username}}</h3>
+            {{~#if userData.pfp}}
+            <img src={{userData.pfp}} alt="pfp">
+            {{~else}}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/2048px-Default_pfp.svg.png"
+                alt="noPfp">
+            {{/if}}
+        </div>
+        <button id="logOutButton" onclick="logOut()"><i class="bi bi-box-arrow-in-right"></i></button>
+        {{~else}}
+        <button id="sign-in" onclick="signIn()">Sign In</button>
+        <button id="sign-up" onclick="signUp()">Sign Up</button>
+        {{/if}}
+    </div>
+</header>

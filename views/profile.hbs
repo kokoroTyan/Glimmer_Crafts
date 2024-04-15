@@ -1,0 +1,245 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script defer src="js/index.js"></script>
+    <script defer src="js/profile.js"></script>
+    <title>Glimmer Crafts</title>
+</head>
+
+{{>header}}
+
+<div class="personalData">
+    <div class="pfp">
+        <img src="{{userData.pfp}}" alt="profilePicture">
+    </div>
+    <h1>{{userData.username}}</h1>
+</div>
+
+
+<button class="featuredButton" onclick="viewFeatured(this)">Featured</button>
+<div class="featured">
+    {{~#each userData.featured}}
+    {{~#with .}}
+    <div class="productCard">
+        <button onclick="deleteFromFeaturedList(this)" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <div class="imgContainer">
+            {{~#if img}}
+            <img onclick="openProduct(this)" src="{{img}}" alt="imageOfProduct">
+            {{~else}}
+            <img onclick="openProduct(this)"
+                src="https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg"
+                alt="noFoodPhoto">
+            {{/if}}
+        </div>
+
+        <h4 onclick="openProduct(this)">{{name}}</h4>
+        <ul>
+            {{~#if price}}
+            <li><b>{{price}} $</b></li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if seller}}
+            <li>Seller: {{seller}}</li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if rating}}
+            <li>{{rating}}/5.0</li>
+            {{~else}}
+            <li>No grades yet</li>
+            {{/if}}
+        </ul>
+    </div>
+    {{/with}}
+    {{/each}}
+
+    {{~#unless userData.featured}}
+    <h2>You don't have any featured products.</h3>
+        {{/unless}}
+</div>
+
+<button class="cartButton" onclick="viewCart(this)">Cart</button>
+
+<div class="userCart">
+    {{~#each userData.cart}}
+    {{~#with .}}
+    <div class="productCard">
+        <button onclick="deleteFromCartList(this)" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <div class="imgContainer">
+            {{~#if img}}
+            <img onclick="openProduct(this)" src="{{img}}" alt="imageOfProduct">
+            {{~else}}
+            <img onclick="openProduct(this)"
+                src="https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg"
+                alt="noFoodPhoto">
+            {{/if}}
+        </div>
+
+        <h4 onclick="openProduct(this)">{{name}}</h4>
+        <ul>
+            {{~#if price}}
+            <li><b>{{price}} $</b></li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if seller}}
+            <li>Seller: {{seller}}</li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if rating}}
+            <li>{{rating}}/5.0</li>
+            {{~else}}
+            <li>No grades yet</li>
+            {{/if}}
+        </ul>
+    </div>
+    {{/with}}
+    {{/each}}
+
+    {{~#unless userData.cart}}
+    <h2>You don't have any products in cart.</h3>
+        {{/unless}}
+</div>
+
+<button class="editprofileButton" onclick="editProfile()">Edit profile</button>
+
+
+{{~#if userData.isSeller}}
+
+<button class="addNewProduct" onclick="openAddForm()">Add a new product</button>
+<button class="viewPRods" onclick="viewProds(this)">View added products</button>
+
+<div class="addedProducts">
+    {{~#each userData.added}}
+    {{~#with .}}
+    <div class="productCard">
+        <div class="imgContainer">
+            {{~#if img}}
+            <img onclick="openProduct(this)" src="{{img}}" alt="imageOfProduct">
+            {{~else}}
+            <img onclick="openProduct(this)"
+                src="https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg"
+                alt="noFoodPhoto">
+            {{/if}}
+        </div>
+        <h4 onclick="openProduct(this)">{{name}}</h4>
+        <ul>
+            {{~#if price}}
+            <li>{{price}} $</li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if seller}}
+            <li>Seller: {{seller}}</li>
+            {{~else}}
+            <li>Not mentioned</li>
+            {{/if}}
+
+            {{~#if rating}}
+            <li>{{rating}}/5.0</li>
+            {{~else}}
+            <li>No grades yet</li>
+            {{/if}}
+        </ul>
+        <button class="deleteProd">Delete</button>
+    </div>
+    {{/with}}
+    {{/each}}
+
+    {{~#unless userData.added}}
+    <h2>You haven't added anything yet.</h3>
+        {{/unless}}
+</div>
+{{~else}}
+<button class="becomeSellerButtton" onclick="becomeSellerOpenForm()">I want to sell products too!</button>
+{{/if}}
+
+
+
+
+<div class="becomeSeller">
+    <button onclick="closeRegForm()" class="closeButton"><i class="bi bi-x-lg"></i></button>
+    <h2>On this website everyone can become a seller themselves! Just confirm that you're not a robot by entering the
+        text from the picture below:</h2>
+    <button onclick="genCaptcha()">Generate captcha</button>
+    <img id="captchaImg" src="/images/captcha/skpsm.jfif" alt="captcha">
+    <input type="text" name="captchaCheck" id="captchaCheck" placeholder="Enter text from the picture here:" required>
+    <button onclick="becomeSeller()">Confirm</button>
+</div>
+
+
+<div class="container">
+    <div class="editProfile">
+        <button onclick="closeRegForm()" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <h2>Edit your data</h2>
+        <div id="previewContainer">
+            <h3>Preview Profile Image:</h3>
+            <img id="profileImagePreview" src="{{userData.pfp}}" alt="Profile Image">
+        </div>
+        <form id="editForm" action="/api/user/edit" method="POST" enctype="multipart/form-data">
+            <label class="input-file">
+                <input type="file" id="profileImageInput" accept="image/*" name="pfp" onchange="handleFiles(this)">
+                <span>Choose a new profile picture</span>
+            </label>
+            <br>
+            <label for="username">Change your username:</label>
+            <input type="text" id="username" name="username" placeholder="New login:" value="{{userData.username}}"
+                required>
+            <label for="password">Change your password:</label>
+            <input type="text" id="password" name="password" placeholder="New password:" value="{{userData.password}}"
+                required>
+            <button id="editButton" type="submit">Save changes</button>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="addProduct">
+        <button onclick="closeRegForm()" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <h2>Add a new product</h2>
+        <div id="previewContainer">
+            <h3>Preview Product Image:</h3>
+            <img id="productImagePreview" src="https://turbok.by/public/img/no-photo--lg.png" alt="product Image">
+        </div>
+        <form id="addForm" action="/product/add" method="POST" enctype="multipart/form-data">
+            <label class="input-file">
+                <input type="file" id="productImageInput" accept="image/*" name="pdPict" onchange="handleFile(this)">
+                <span>Choose your product image</span>
+            </label>
+            <br>
+            <label for="name">Enter your product's name:</label>
+            <input type="text" id="name" name="name" placeholder="Product name:" required>
+            <br>
+            <label for="description">Describe your product:</label>
+            <textarea name="description" id="description" cols="50" rows="5" required></textarea>
+            <br>
+            <label for="price">Enter your product's price:</label>
+            <input type="number" id="price" name="price" min="0" placeholder="Product price:" required>
+            <br>
+            <label for="category">Select the category of your product:</label>
+            <select name="category" id="category" required>
+                <option value="Necklaces">Necklaces</option>
+                <option value="Earrings">Earrings</option>
+                <option value="Rings">Rings</option>
+                <option value="Bracelets">Bracelets</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <button id="addingButton" type="submit">Add a product</button>
+        </form>
+    </div>
+</div>
+
+{{>footer}}

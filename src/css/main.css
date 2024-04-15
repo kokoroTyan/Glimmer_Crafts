@@ -1,0 +1,155 @@
+main{
+    background-color: #27273F;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.about-us{
+    margin: 1vw;
+    width: 60%;
+    text-align: center;
+}
+
+.about-content p{
+    width: 60%;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content img{
+    max-width: 33%;
+}
+
+
+.search{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5vw;
+}
+.search input{
+    outline: none; 
+    border: none;
+    background-color: #2E2E4B;
+    border-radius: 10px;
+    padding: 0.6vw;
+    color: #5A82A3;
+    font-family: inherit;
+    font-size: 16;
+}
+.search button, .filters .filterReqButton{
+    outline: none; 
+    border: none;
+    font-family: inherit;
+    font-size: 18;
+    padding: 0.5vw 0.7vw;
+    border-radius: 10px;
+    background-color: #2E2E4B;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+.search button:hover, .filters .filterReqButton:hover{
+    cursor: pointer;
+    background-color: #23233b;
+    transition: 0.5s ease-in;
+}
+::-webkit-input-placeholder {
+    color: #99b6ce63;
+}
+
+
+.filters{
+    display: none;
+    text-align: left;
+}
+.filters input, .filters select{
+    border: none;
+    outline: none;
+    background: #2E2E4B;
+    font-family: inherit;
+    font-size: 16;
+    color: #5A82A3;
+    margin-bottom: 0.5vw;
+    padding: 0.2vw;
+}
+.filters input::-webkit-outer-spin-button,
+.filters input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.filters .filterReqButton{
+    margin: 0.5vw 0;
+    width: 100%;
+}
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw;
+    width: 80%;
+    text-align: center;
+}
+
+.wrapper{
+    display: inline-block;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.productCard {
+    padding: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #2E2E4B;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+
+.productCard button{
+    outline: none; 
+    border: none;
+    font-family: inherit;
+    font-size: 18;
+    padding: 0.5vw 0.7vw;
+    border-radius: 10px;
+    background-color: #27273F;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+.productCard .buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.productCard ul{
+    list-style-type: none;
+    margin: -1vw 0 1vw -2.2vw;
+}
+.imgContainer{
+    overflow:hidden;
+    width: 10vw;
+    height: 10vw;
+}
+.productCard img{
+    min-width: 10vw;
+    height:10vw;
+    object-fit:cover;
+}
+
+
+

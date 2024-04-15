@@ -1,0 +1,172 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/index.js"></script>
+    <script defer src="js/main.js"></script>
+    <title>Glimmer Crafts</title>
+</head>
+
+{{>header}}
+
+<main>
+    <section class="about-us">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <img src="images/logo.png" alt="About Us Image">
+            <p>Welcome to our unique handmade jewelry marketplace "Glimmer Crafts"!
+                <br>We're a vibrant platform that celebrates creativity and individuality. Passionate artisans,
+                designers, and jewelry makers can showcase their craft and create their own brands here. Every piece
+                tells a story, and we empower creators to share their unique tales through their creations.
+                <br>Discover a diverse array of handcrafted jewelry, from delicate necklaces to captivating rings. Each
+                piece is meticulously crafted with love and expertise, offering an eclectic range of designs for every
+                taste and occasion.
+                <br>We provide an opportunity for anyone to establish their brand and share their passion with the
+                world. Creators can set up their own storefronts, curate collections, and connect with a community of
+                jewelry enthusiasts. Join us in celebrating the artistry of handmade jewelry and the entrepreneurial
+                spirit of our creators!
+                <br>Come be a part of our vibrant community and let your creativity shine!</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+
+        <div class="search">
+            <div>
+                <i class="bi bi-search"></i>
+                <input id="searchProduct" type="text" placeholder="Search jewelry...">
+            </div>
+            <button onclick="showFilters()">Filters</button>
+            <button onclick="clearFilters()">Clear filters</button>
+        </div>
+
+        <div class="filters">
+            <button class="closeButton" onclick="closeFilters()"><i class="bi bi-x-lg"></i></button>
+
+            <div class="price">
+                <p>Price:</p>
+                <label for="minPrice">From: </label>
+                <input type="number" name="minPrice" id="minPrice">
+                <br>
+                <label for="maxPrice">To: </label>
+                <input type="number" name="maxPrice" id="maxPrice">
+            </div>
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="Necklaces">Necklaces</option>
+                <option value="Earrings">Earrings</option>
+                <option value="Bracelets">Bracelets</option>
+                <option value="Rings">Rings</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label for="sortBy">Sort by:</label>
+            <select name="sortBy" id="sortBy">
+                <option value="priceAsc">Price (ascending)</option>
+                <option value="priceDesc">Price (descending)</option>
+                <option value="ratingAsc">Rating (ascending)</option>
+                <option value="ratingDesc">Rating (descending)</option>
+            </select>
+            <br>
+            <button class="filterReqButton" onclick="filterProducts(this)">Filter</button>
+        </div>
+
+
+        <div class="wrapper">
+            {{~#each prods}}
+            {{~#with .}}
+            <div class="productCard">
+                <div class="imgContainer">
+                    {{~#if img}}
+                    <img onclick="openProduct(this)" src="{{img}}" alt="imageOfProduct">
+                    {{~else}}
+                    <img onclick="openProduct(this)"
+                        src="https://img.freepik.com/premium-vector/default-image-icon-vector-missing-picture-page-website-design-mobile-app-no-photo-available_87543-11093.jpg"
+                        alt="noFoodPhoto">
+                    {{/if}}
+                </div>
+
+                <h4 onclick="openProduct(this)">{{name}}</h4>
+                <ul>
+                    {{~#if price}}
+                    <li><b>{{price}} $</b></li>
+                    {{~else}}
+                    <li>Not mentioned</li>
+                    {{/if}}
+
+                    {{~#if seller}}
+                    <li>Seller: {{seller}}</li>
+                    {{~else}}
+                    <li>Not mentioned</li>
+                    {{/if}}
+
+                    {{~#if rating}}
+                    <li>{{rating}}/5.0</li>
+                    {{~else}}
+                    <li>No grades yet</li>
+                    {{/if}}
+                </ul>
+                <div class="buttons">
+                    {{~#if (addFeaturedButton ../userData.featured name)}}
+                    <button class="addToFeatured clicked">♥</button>
+                    {{~else}}
+                    <button class="addToFeatured">♡</button>
+                    {{/if}}
+
+
+                    {{~#if (addCartButton ../userData.cart name)}}
+                    <button class="addToCart clicked">In cart!</button>
+                    {{~else}}
+                    <button class="addToCart">Add to cart</button>
+                    {{/if}}
+
+                    {{~#if (addSellerButtons ../userData.added name)}}
+                    <button class="deleteProd">Delete</button>
+                    {{/if}}
+                </div>
+
+            </div>
+            {{/with}}
+            {{/each}}
+
+            {{~#unless prods}}
+            <h2>Nothing was found</h3>
+                {{/unless}}
+        </div>
+    </section>
+</main>
+
+<div class="container">
+    <div class="signInForm">
+        <button onclick="closeRegForm()" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <h2>Log into an existing account</h2>
+        <form id="formSignIn" action="/api/user/authorise" method="GET">
+            <input type="text" id="username" name="username" placeholder="Login:" required>
+            <input type="password" id="password" name="password" placeholder="Password:" required>
+            <button id="signInButton" type="submit">Sign In</button>
+        </form>
+        <div class="switchToSignUp"><a>Don't have an account yet? Sign up!</a></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="signUpForm">
+        <button onclick="closeRegForm()" class="closeButton"><i class="bi bi-x-lg"></i></button>
+        <h2>Create an account</h2>
+        <form id="formSignUp" action="/api/user/register" method="POST">
+            <input type="text" id="username" name="username" placeholder="Login:" required>
+            <input type="password" id="password" name="password" placeholder="Password:" required>
+            <button id="signUpButton" type="submit">Sign Up</button>
+        </form>
+        <div class="switchToSignIn"><a>Already have an account? Sign in!</a></div>
+    </div>
+</div>
+
+{{>footer}}

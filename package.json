@@ -1,0 +1,23 @@
+{
+  "name": "examproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "3.1.1"
+  }
+}

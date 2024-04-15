@@ -1,0 +1,321 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #27273F;
+    color: #5A82A3;
+}
+  
+header {
+    width: 100%;
+    background-color: #1B1B35;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1.5vw;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 1.5vw;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    transition: 0.5s ease-in;
+    font-size:16.5;
+    color: #5A82A3;
+}
+
+nav ul li a:hover{
+    font-size: 17.5;
+    color: #71A1C8;
+    transition: 0.5s ease-in;
+}
+
+.user-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9vw;
+}
+.user-actions img{
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    position:center;
+}
+
+
+.profileCard{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profileCard h3{
+    transition: 0.5s ease-in;
+}
+.profileCard h3:hover{
+    cursor: pointer;
+    color: #71A1C8;
+    transition: 0.5s ease-in;
+}
+
+
+#logOutButton{
+    background-color:#cccccc00;
+    border: 0;
+    text-decoration: none;
+    font-size: large;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+
+#logOutButton:hover{
+    cursor: pointer;
+    color: #71A1C8;
+    transition: 0.5s ease-in;
+}
+
+#sign-in, #sign-up{
+    font-family: inherit;
+    margin: 1.25vw 0;
+    background-color:#cccccc00;
+    border: 0;
+    text-decoration: none;
+    font-size: large;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+
+#sign-in:hover, #sign-up:hover{
+    font-family: inherit;
+    cursor: pointer;
+    color: #71A1C8;
+    transition: 0.5s ease-in;
+}
+
+
+.container{
+    display: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999999;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.signInForm, .signUpForm {
+    max-width: 30vw;
+    margin: 5vw auto;
+    padding: 1.5vw 2.5vw;
+    background-color: #27273F;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.closeButton{
+    float:right;
+    outline: none; 
+    border: none;
+    font-family: inherit;
+    font-size: 18;
+    padding: 0.5vw 0.7vw;
+    border-radius: 10px;
+    background-color: #2E2E4B;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+.closeButton:hover{
+    cursor: pointer;
+    background-color: #23233b;
+    transition: 0.5s ease-in;
+}
+
+  
+.container form input[type="text"], form input[type="password"] {
+    width: 100%;
+    height: auto;
+    padding: 0.7vw;
+    margin-bottom: 1vw;
+    border-radius: 5px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: #2E2E4B;
+    font-size: 16;
+    color: #5A82A3;
+}
+  
+#signInButton, #signUpButton {
+    width: 100%;
+    padding: 0.7vw;
+    background-color: #353555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: inherit;
+    font-size: 15;
+    color: #5A82A3;
+    font-style: bold;
+}
+#signInButton:hover, #signUpButton:hover{
+    background-color: #2F2F4C;
+    color: #71A1C8;
+}
+  
+.container .switchToSignUp, .container .switchToSignIn {
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.container .switchToSignUp a, .container .switchToSignIn a{
+    text-decoration: none;
+    color: #5A82A3;
+}
+.container .switchToSignUp:hover, .container .switchToSignIn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #71A1C8;
+}
+
+
+/* PRODUCT PAGE */
+.nameDesc img{
+    width: 30vw;
+    margin: 5vw;
+}
+.nameDesc{
+    display: flex;
+}
+.right{
+    margin: 5vw 0;
+    width: 50vw;
+}
+.text h4{
+    font-size: x-large;
+}
+.text p{
+    font-size: large;
+}
+.price{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameDesc button{
+    outline: none; 
+    border: none;
+    font-family: inherit;
+    font-size: 18;
+    padding: 0.5vw 0.7vw;
+    border-radius: 10px;
+    background-color: #343452;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+}
+.nameDesc .buttons{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+#addReviewForm{
+    display: none;
+}
+
+.reviews{
+    text-align: center;
+    padding: 0 2vw;
+}
+.reviewCard{
+    text-align: center;
+    border: 1px solid transparent;
+    width: 10%;
+    background-color: #343452;
+    border-radius: 10px;
+}
+.reviewCard .top{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: -1.5vw 0 -2vw 0;
+}
+.reviewCard .top h6{
+    font-size: medium;
+}
+.reviewCards h1{
+    font-size: larger;
+}
+
+#showReviewForm, #addReviewButton{
+    outline: none; 
+    border: none;
+    font-family: inherit;
+    font-size: 18;
+    padding: 0.5vw 0.7vw;
+    border-radius: 10px;
+    background-color: #343452;
+    transition: 0.5s ease-in;
+    color: #5A82A3;
+    margin: 2vw;
+    transition: 0.4 ease-in;
+}
+#showReviewForm:hover, #addReviewButton:hover{
+    background-color: #2b2b43;
+    cursor: pointer;
+    color: #71A1C8;
+    transition: 0.4 ease-in;
+}
+.stars button{
+    outline: none;
+    border: none;
+    background: transparent;
+    color:#5A82A3;
+    font-size: 20;
+}
+.reviewField textarea{
+    font-family: inherit;
+    outline: none;
+    border: none;
+    background:#343452;
+    padding: 0.5vw;
+    border-radius: 7px;
+    font-size: 16;
+    color:#5A82A3;
+}
+
+
+footer {
+    width: 100vw;
+    height: auto;
+    margin-top: 3.5vw;
+    padding: 2vw;
+    text-align: center;
+    background: #1f1f31;
+    font-size: larger;
+}

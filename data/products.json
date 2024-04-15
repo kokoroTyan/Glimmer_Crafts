@@ -1,0 +1,537 @@
+[
+    {
+        "img": "/images/products/n1.jpg",
+        "name": "Harmony Strand Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 45,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "username": "admin",
+                "reviewtext": "test review wow",
+                "stars": "★ ★ ★ ★ ☆"
+            }
+        ]
+    },
+    {
+        "img": "/images/products/n2.jpg",
+        "name": "Serenity Pendant Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 60,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "username": "admin",
+                "reviewtext": "Test review(from routers)",
+                "stars": "★ ★ ★ ★ ☆"
+            }
+        ]
+    },
+    {
+        "img": "/images/products/n3.jpg",
+        "name": "Whispering Willow Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 35,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "username": "admin",
+                "reviewtext": "Test review(another)",
+                "stars": "★ ★ ★ ★ ★"
+            },
+            {
+                "username": "admin",
+                "reviewtext": "fkhkhg",
+                "stars": "★ ★ ★ ★ ★"
+            }
+        ]
+    },
+    {
+        "img": "/images/products/n4.jpg",
+        "name": "Luna Lariat Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 24.99,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": [
+            {
+                "username": "admin",
+                "reviewtext": "test review",
+                "stars": "★ ★ ★ ☆ ☆"
+            }
+        ]
+    },
+    {
+        "img": "/images/products/n5.jpg",
+        "name": "Celestial Amulet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 30,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/n6.jpg",
+        "name": "Radiance Collar",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 52,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/n7.jpg",
+        "name": "Stellar Choker",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 41,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/n8.jpg",
+        "name": "Elixir Charm",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 39.99,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/n9.jpg",
+        "name": "Phoenix Talisman Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 20,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/n10.jpg",
+        "name": "Enchantress Necklace",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 43,
+        "category": "Necklaces",
+        "seller": "GleamingGemsCo",
+        "rating": 4.8,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e1.jpg",
+        "name": "Pearl Petals Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 15,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e2.jpg",
+        "name": "Gilded Glam Earings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 12,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e3.jpg",
+        "name": "Moonlit Drops Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 10.99,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e4.jpg",
+        "name": "Blooming Baubles Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 19,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e5.jpg",
+        "name": "Sparkle Gems Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 14,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e6.jpg",
+        "name": "Shimmering Charm Earings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 13,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e7.jpg",
+        "name": "Crystal Whispers Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 18,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e8.jpg",
+        "name": "Vintage Treasure Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 19,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": [
+            {
+                "username": "admin",
+                "reviewtext": "test review",
+                "stars": "★ ★ ★ ★ ★"
+            }
+        ]
+    },
+    {
+        "img": "/images/products/e9.jpg",
+        "name": "Dainty Adornment",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 17,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/e10.jpg",
+        "name": "Twinkle Trinkets Earrings",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 16,
+        "category": "Earrings",
+        "seller": "ElegantJewelsInc",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r1.jpg",
+        "name": "Eternity's Embrace Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 56,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r2.jpg",
+        "name": "Moonlight Mirage Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 71,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r3.jpg",
+        "name": "Dreamweaver Diamond Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 45,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r4.jpg",
+        "name": "Serene Solitaire Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 60.99,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r5.jpg",
+        "name": "Radiant Blossom Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 39,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r6.jpg",
+        "name": "Enchanting Elixir Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 68,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r7.jpg",
+        "name": "Whimsical Wonders Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 51,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r8.jpg",
+        "name": "Mystical Amethyst Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 43,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r9.jpg",
+        "name": "Celestial Sparkle Ring",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 50,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/r10.jpg",
+        "name": "Graceful Harmony",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 79,
+        "category": "Rings",
+        "seller": "RoyalJewelers",
+        "rating": 4.6,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o1.jpg",
+        "name": "Transforming Talisman",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 35,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o2.jpg",
+        "name": "Adaptable Trinket",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 23,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o3.jpg",
+        "name": "Versatile Vortex",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 19.99,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o4.jpg",
+        "name": "Modular Medallion",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 25,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o5.jpg",
+        "name": "Convertible Charm",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 15,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o6.jpg",
+        "name": "All-in-One Accessory",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 12,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o7.jpg",
+        "name": "Interchangeable Bauble",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 9.99,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o8.jpg",
+        "name": "Flexible Fusion",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 20,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o9.jpg",
+        "name": "Multifunction Jewel",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 19,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/o10.jpg",
+        "name": "Customizable Keepsake",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 25,
+        "category": "Other",
+        "seller": "TimelessTreasures",
+        "rating": 4.7,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b1.jpg",
+        "name": "Harmony Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 15,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b2.jpg",
+        "name": "Serenity Bangle",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 12,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b3.jpg",
+        "name": "Radiant Cuff",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 14.99,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b4.jpg",
+        "name": "Enchanting Charm Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 17,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b5.jpg",
+        "name": "Infinity Link Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 10.99,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b6.jpg",
+        "name": "Tranquil Beaded Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 13,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b7.jpg",
+        "name": "Sparkling Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 12,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b8.jpg",
+        "name": "Boho Wrap Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 11,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b9.jpg",
+        "name": "Delicate Chain",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 10,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    },
+    {
+        "img": "/images/products/b10.jpg",
+        "name": "Bold Statement Bracelet",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "price": 15,
+        "category": "Bracelets",
+        "seller": "LuxuryGemsBoutique",
+        "rating": 4.9,
+        "reviews": []
+    }
+]
